@@ -29,6 +29,10 @@ class MyComponent extends React.Component {
         })
     }
 
+    componentDidMount() {
+        console.log('>>> Run component did mouth');
+    }
+
     render() {
         console.log('>>>Call render:', this.state);
         return (
