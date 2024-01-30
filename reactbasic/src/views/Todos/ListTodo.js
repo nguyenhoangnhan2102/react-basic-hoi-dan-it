@@ -44,10 +44,8 @@ class ListTodo extends React.Component {
 
             let objIndex = listTodosCopy.findIndex((item => item.id === todo.id));
 
-            //Log object to Console.
             console.log("Before update: ", listTodosCopy[objIndex])
 
-            //Update object's name property.
             listTodosCopy[objIndex].title = editTodo.title;
 
             this.setState({
@@ -60,7 +58,6 @@ class ListTodo extends React.Component {
         this.setState({
             editTodo: todo
         })
-
     }
 
     handleOnChangeEditTodo = (event) => {

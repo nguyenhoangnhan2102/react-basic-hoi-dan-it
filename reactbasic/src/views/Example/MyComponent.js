@@ -10,7 +10,6 @@ class MyComponent extends React.Component {
             { id: 'abcJob2', title: 'tester', salary: '400' },
             { id: 'abcJob3', title: 'project manager', salary: '1000' },
             { id: 'abcJob4', title: 'teacher', salary: '1100' },
-
         ],
     }
 

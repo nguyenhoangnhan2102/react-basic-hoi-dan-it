@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.scss';
-// import MyComponent from './Example/MyComponent';
+import MyComponent from './Example/MyComponent';
 import ListTodo from './Todos/ListTodo';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+// import Dropdown from './Dropdown/Dropdown';
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
         <p>
           Simple Todo Apps with React.js (Eric & Hoi Dan IT)
         </p>
-        {/* <MyComponent /> */}
+        <MyComponent />
         <ListTodo />
-
+        {/* <Dropdown /> */}
       </header>
       <ToastContainer
         position="top-right"
